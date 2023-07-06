@@ -109,7 +109,7 @@ class HomePage extends StatelessWidget {
                         fit: BoxFit.cover, //박스에 딱 맞게 해줌.
                       ),
                       Container(
-                        color: Colors.black.withOpacity(0.4),
+                        color: Colors.black.withOpacity(0.3),
                         width: double.infinity,
                         height: 200,
                       ),
