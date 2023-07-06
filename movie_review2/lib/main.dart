@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
                   // 리스트들을 카드 형식으로
                   child: Stack(
                     //stack : 겹치게 할 수 있게
-                    alignment: Alignment.center, //가운데로
+                    alignment: Alignment.center, //가운데로.
                     children: [
                       Image.network(
                         imageUrl,
