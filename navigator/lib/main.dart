@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: FirstPage(),
-      initialRoute: '/',
+      initialRoute: '/', // 처음 페이지
       routes: {
         '/first': (context) => const FirstPage(),
         '/second': (context) => const SecondPage(),
